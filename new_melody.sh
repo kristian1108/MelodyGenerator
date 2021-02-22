@@ -9,7 +9,7 @@ if [ "$1" == "play" ]
 then
 melody_rnn_generate \
 --config=lookback_rnn \
---bundle_file=lookback_rnn.mag \
+--bundle_file=./models/lookback_rnn.mag \
 --output_dir=./melody_output \
 --num_outputs=10 \
 --num_steps=128 \
