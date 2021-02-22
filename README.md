@@ -18,6 +18,9 @@ version:
 
 `virtualenv --python='/path/to/python3' venv`
 
+#### Second, Activate Virtualenv
+`source venv/bin/activate`
+
 #### Second, Install Requirements
 `pip install -r requirements.txt`
 
